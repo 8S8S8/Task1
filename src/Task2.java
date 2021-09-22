@@ -10,7 +10,7 @@ public class Task2 {
         System.out.println("Введите число: b ");
         int b = sc.nextInt();
 
-        System.out.println("" + q1(a, b));
+        System.out.println("" + comparison(a, b));
 
 
         Scanner sc1 = new Scanner(System.in);
@@ -41,7 +41,7 @@ public class Task2 {
 
     }
 
-    public static int q1(int a, int b) {
+    public static int comparison(int a, int b) {
         if (a > b) {
             System.out.println("a>b");
             return b;
